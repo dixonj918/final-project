@@ -20,11 +20,11 @@
     // background-color: blue;
     
     .gallery-top-row{
-       display: flex;
+      display: flex;
       justify-content: space-between;
       margin-bottom: 17px;
       
-      .gallery-one{
+      .galleryOne{
       width: 489px;
       height: 187px;
       background-image: linear-gradient(
@@ -33,6 +33,11 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+
+        img{
+          width: 489px;
+          height: 187px;
+        }
       }
       
       .gallery-two{

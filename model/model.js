@@ -89,34 +89,151 @@ var aboutContent = `    <div class="aboutHero"></div>
 var galleryContent = `    <div class="gallery">gallery:</div>
 <div class="galleryWrapper">
   <div class="gallery-top-row">
-    <div class="gallery-one"></div>
-    <div class="gallery-two"></div>
-    <div class="gallery-three"></div>
+  <a id="galleryOne" class="galleryOne" href="#"  ></a>
+  <a id="galleryTwo" class="gallery-two" href="#"></a>
+  <a id="galleryThree" class="gallery-three" href="#"></a>
   </div>
   <div class="gallery-bottom-row">
-    <div class="gallery-four"></div>
-    <div class="gallery-five"></div>
+  <a id="galleryFour" class="gallery-four" href="#"></a>
+  <a id="galleryFive" class="gallery-five" href="#"></a>
   </div>
+</div>`;
+
+var galleryOneContent = `    <div class="gallery-one-hero">
+<div class="text-1">1.</div>
+<div class="gallery-title-1"><h1>food festival</h1></div>
+</div>
+<div class="gallery-text-wrapper">
+<div class="text-left">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+</div>
+<div class="text-right">
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</div>`;
+
+var galleryTwoContent =`<div class="gallery-two-hero">
+<div class="text-2">2.</div>
+<div class="gallery-title-2"><h1>Dee Jay</h1></div>
+</div>
+<div class="gallery-text-wrapper">
+<div class="text-left">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+</div>
+<div class="text-right">
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</div>`;
+var galleryThreeContent = `    <div class="gallery-three-hero">
+<div class="text-3">3.</div>
+<div class="gallery-title-3"><h1>Speech</h1></div>
+</div>
+<div class="gallery-text-wrapper">
+<div class="text-left">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+</div>
+<div class="text-right">
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</div>`;
+var galleryFourContent = `<div class="gallery-four-hero">
+<div class="text-4">4.</div>
+<div class="gallery-title-4"><h1>Open Food</h1></div>
+</div>
+<div class="gallery-text-wrapper">
+<div class="text-left">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+</div>
+<div class="text-right">
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</div>`;
+var galleryFiveContent = `    <div class="gallery-five-hero">
+<div class="text-5">5.</div>
+<div class="gallery-title-5"><h1>International</h1></div>
+</div>
+<div class="gallery-text-wrapper">
+<div class="text-left">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+</div>
+<div class="text-right">
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
 </div>`;
 
 var blogContent = `<div class="gallery">blog:</div>
 <div class="blogWrapper">
   <div class="blog-group">
-    <div class="date">
+    <a id=blogOne href="#" class="date">
       <div class="day">06</div>
       <div class="month">JUN</div>
-    </div>
+    </a>
     <div class="picture-group">
-      <div class="blog-picture"></div>
+    <div class="blog-picture" href="#"></div>
       <div class="blog-title">Sed et persipiatis unde</div>
       <div class="blog-story"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p></div>
     </div>
   </div>
   <div class="blog-group">
-    <div class="date">
+    <a id="blogTwo" href="#" class="date">
       <div class="day">30</div>
       <div class="month">JUL</div>
-    </div>
+    </a>
     <div class="picture-group">
       <div class="blog-picture"></div>
       <div class="blog-title">Sed et persipiatis unde</div>
@@ -126,10 +243,10 @@ var blogContent = `<div class="gallery">blog:</div>
 </div>
 <div class="blogWrapper">
   <div class="blog-group">
-    <div class="date">
+    <a id="blogThree" href="#" class="date">
       <div class="day">30</div>
       <div class="month">AUG</div>
-    </div>
+    </a>
     <div class="picture-group">
       <div class="blog-picture"></div>
       <div class="blog-title">Sed et persipiatis unde</div>
@@ -137,10 +254,10 @@ var blogContent = `<div class="gallery">blog:</div>
     </div>
   </div>
   <div class="blog-group">
-    <div class="date">
+    <a id="blogFour" href="#" class="date">
       <div class="day">23</div>
       <div class="month">NOV</div>
-    </div>
+    </a>
     <div class="picture-group">
       <div class="blog-picture"></div>
       <div class="blog-title">Sed et persipiatis unde</div>
@@ -150,10 +267,10 @@ var blogContent = `<div class="gallery">blog:</div>
 </div>
 <div class="blogWrapper">
   <div class="blog-group">
-    <div class="date">
+    <a id="blogFive" href="#" class="date">
       <div class="day">23</div>
       <div class="month">DEC</div>
-    </div>
+    </a>
     <div class="picture-group">
       <div class="blog-picture"></div>
       <div class="blog-title">Sed et persipiatis unde</div>
@@ -164,7 +281,7 @@ var blogContent = `<div class="gallery">blog:</div>
 </div>
 `;
 
-var junContent = `<div class="div blog-hero">
+var blogOne = `<div class="div blog-hero">
 <div class="blog-date">
   <div class="blog-day">06</div>
   <div class="blog-month">JUN</div>
@@ -194,6 +311,130 @@ var junContent = `<div class="div blog-hero">
   </p>
 </div>
 </div>`;
+
+var blogTwo = `<div class="div blog-hero">
+<div class="blog-date">
+  <div class="blog-day">30</div>
+  <div class="blog-month">JUL</div>
+</div>
+</div>
+<div class="blog-one-wrapper">
+<div class="blog-header"><h3>Header #1:</h3></div>
+<div class="blog-story">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo
+  </p>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+<div class="blog-header"><h3>Header #2:</h3></div>
+<div class="blog-story">
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+</div>`;
+var blogThree = ` <div class="div blog-hero">
+<div class="blog-date">
+  <div class="blog-day">30</div>
+  <div class="blog-month">Aug</div>
+</div>
+</div>
+<div class="blog-one-wrapper">
+<div class="blog-header"><h3>Header #1:</h3></div>
+<div class="blog-story">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo
+  </p>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+<div class="blog-header"><h3>Header #2:</h3></div>
+<div class="blog-story">
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+</div>`;
+var blogFour = `<div class="div blog-hero">
+<div class="blog-date">
+  <div class="blog-day">23</div>
+  <div class="blog-month">NOV</div>
+</div>
+</div>
+<div class="blog-one-wrapper">
+<div class="blog-header"><h3>Header #1:</h3></div>
+<div class="blog-story">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo
+  </p>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+<div class="blog-header"><h3>Header #2:</h3></div>
+<div class="blog-story">
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+</div>`;
+var blogFive = `<div class="div blog-hero">
+<div class="blog-date">
+  <div class="blog-day">23</div>
+  <div class="blog-month">DEC</div>
+</div>
+</div>
+<div class="blog-one-wrapper">
+<div class="blog-header"><h3>Header #1:</h3></div>
+<div class="blog-story">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo
+  </p>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+<div class="blog-header"><h3>Header #2:</h3></div>
+<div class="blog-story">
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+</div>`;
+
+
+
 var contactContent = `<div class="gallery">contact us:</div>
 <div class="contact">
   <div class="contactForm">

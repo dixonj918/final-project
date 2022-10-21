@@ -55,7 +55,7 @@ nav {
 nav .logo {
   width: 109px;
   height: 42px;
-  background-image: url(/images/logo/logo-white.png);
+  background-image: url(../images/logo/logo-white.png);
   background-repeat: no-repeat;
 }
 nav .links {
@@ -95,7 +95,7 @@ nav .aboutLinks span {
   width: 109px;
   height: 42px;
   background-repeat: no-repeat;
-  background-image: url(/images/logo/logo-black.png);
+  background-image: url(../images/logo/logo-black.png);
 }
 
 .heroHome {
@@ -186,6 +186,7 @@ nav .aboutLinks span {
   width: 100%;
   min-height: 320px;
   padding: 51px 40px;
+  padding-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,7 +339,7 @@ nav .aboutLinks span {
           justify-content: space-between;
   margin-bottom: 17px;
 }
-.galleryWrapper .gallery-top-row .gallery-one {
+.galleryWrapper .gallery-top-row .galleryOne {
   width: 489px;
   height: 187px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 209, 64, 0.5)), to(rgba(255, 209, 64, 0.5))), url(../images/gallery/1.png);
@@ -346,6 +347,10 @@ nav .aboutLinks span {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.galleryWrapper .gallery-top-row .galleryOne img {
+  width: 489px;
+  height: 187px;
 }
 .galleryWrapper .gallery-top-row .gallery-two {
   width: 187px;
@@ -707,6 +712,7 @@ nav .aboutLinks span {
   height: 60px;
   background-color: #EE4367;
   margin-right: 18px;
+  text-decoration: none;
 }
 .blogWrapper .blog-group .date .day {
   text-align: center;
