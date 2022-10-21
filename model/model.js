@@ -281,7 +281,7 @@ var blogContent = `<div class="gallery">blog:</div>
 </div>
 `;
 
-var blogOne = `<div class="div blog-hero">
+var blogOneContent = `<div class="div blog-hero">
 <div class="blog-date">
   <div class="blog-day">06</div>
   <div class="blog-month">JUN</div>
@@ -312,7 +312,7 @@ var blogOne = `<div class="div blog-hero">
 </div>
 </div>`;
 
-var blogTwo = `<div class="div blog-hero">
+var blogTwoContent = `<div class="div blog-hero">
 <div class="blog-date">
   <div class="blog-day">30</div>
   <div class="blog-month">JUL</div>
@@ -342,7 +342,7 @@ var blogTwo = `<div class="div blog-hero">
   </p>
 </div>
 </div>`;
-var blogThree = ` <div class="div blog-hero">
+var blogThreeContent = ` <div class="div blog-hero">
 <div class="blog-date">
   <div class="blog-day">30</div>
   <div class="blog-month">Aug</div>
@@ -372,7 +372,7 @@ var blogThree = ` <div class="div blog-hero">
   </p>
 </div>
 </div>`;
-var blogFour = `<div class="div blog-hero">
+var blogFourContent = `<div class="div blog-hero">
 <div class="blog-date">
   <div class="blog-day">23</div>
   <div class="blog-month">NOV</div>
@@ -402,7 +402,7 @@ var blogFour = `<div class="div blog-hero">
   </p>
 </div>
 </div>`;
-var blogFive = `<div class="div blog-hero">
+var blogFiveContent = `<div class="div blog-hero">
 <div class="blog-date">
   <div class="blog-day">23</div>
   <div class="blog-month">DEC</div>
