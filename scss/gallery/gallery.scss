@@ -1,0 +1,338 @@
+.gallery{
+    color: #000;
+    font-family: gillsans;
+    // background-color: gold;
+    width: 336px;
+    height: 33px;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-bottom: 2px solid #000000;
+    margin-left: 468px;
+    margin-top: 63px;
+    margin-bottom: 29px;
+}
+
+.galleryWrapper{
+    width: 975px;
+    min-height: 494px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    // background-color: blue;
+    
+    .gallery-top-row{
+       display: flex;
+      justify-content: space-between;
+      margin-bottom: 17px;
+      
+      .gallery-one{
+      width: 489px;
+      height: 187px;
+      background-image: linear-gradient(
+        rgba(255, 209, 64, .5),
+        rgba(255, 209, 64, .5)), url(../images/gallery/1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+      .gallery-two{
+        width: 187px;
+        height: 187px;
+        background-image:linear-gradient(
+            rgba(238, 67, 103, .5),
+            rgba(238, 67, 103, .5)), url(../images/gallery/2.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        // background-color: teal;
+      }
+      .gallery-three{
+        width: 265px;
+        height: 187px;
+        background-image: linear-gradient(
+            rgba(8, 173, 105, .5),
+            rgba(8, 173, 105, .5)),url(../images/gallery/3.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        // background-color: green;
+      }
+    }
+    
+    .gallery-bottom-row{
+      display: flex;
+      justify-content: space-between;
+        
+        .gallery-four{
+          width: 603px;
+          height: 306px;
+          background-image: linear-gradient(
+            rgba(84, 13, 110, .5),
+            rgba(84, 13, 110, .5)),url(../images/gallery/4.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        //   background-color: teal;
+          }
+      
+      .gallery-five{
+        width: 355px;
+        height: 306px;
+        background-image: linear-gradient(
+            rgba(59, 206, 171, .5),
+            rgba(59, 206, 171, .5)),url(../images/gallery/5.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        // background-color: yellow;
+      }
+    }
+  }
+
+  .gallery-one-hero{
+    width: 980px;
+    height: 364px;
+    // background-color: yellow;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: linear-gradient(
+        rgba(255, 209, 64, .5),
+        rgba(255, 209, 64, .5)), url(../images/gallery/1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display:flex;
+
+    
+      
+      .text-1{
+        height: 200px;
+        width: 200px;
+        font-size: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+        font-family: gillsans;
+        color: #FFD140;
+        // background-color: blue;
+    }
+
+    
+    .gallery-title-1{
+      width: 800px;
+      height: 109px;
+      margin-top: 260px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // background-color: blue;
+      
+      h1{
+        font-size: 140px;
+        color: #FFD140;
+        font-family: gillsans;
+      }
+    }
+
+
+  }
+  
+  .gallery-text-wrapper{
+    width: 980px;
+    height: 135px;
+    // background-color: blue;
+    margin: 0 auto;
+    margin-top: 44px;
+    margin-bottom: 73px;
+    display: flex;
+    justify-content: space-between;
+    
+    .text-left{
+      width: 449px;
+      height: 100%;
+    //   background-color: gold;
+
+      p{
+        font-family: gillsans;
+        font-size: 16px;
+      }
+    }
+    
+    .text-right{
+      width: 412px;
+      height: 100%;
+    //   background-color: brown;
+
+      p{
+        font-family: gillsans;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .gallery-two-hero{
+    width: 980px;
+    height: 364px;
+    // background-color: yellow;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image:linear-gradient(
+        rgba(238, 67, 103, .5),
+        rgba(238, 67, 103, .5)), url(../images/gallery/2.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display:flex;
+}
+
+.gallery-three-hero{
+    width: 980px;
+    height: 364px;
+    // background-color: yellow;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: linear-gradient(
+        rgba(8, 173, 105, .5),
+        rgba(8, 173, 105, .5)),url(../images/gallery/3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+}
+
+.gallery-four-hero{
+    width: 980px;
+    height: 364px;
+    // background-color: yellow;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: linear-gradient(
+        rgba(84, 13, 110, .5),
+        rgba(84, 13, 110, .5)),url(../images/gallery/4.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+}
+
+.gallery-five-hero{
+    width: 980px;
+    height: 364px;
+    // background-color: yellow;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: linear-gradient(
+        rgba(59, 206, 171, .5),
+        rgba(59, 206, 171, .5)),url(../images/gallery/5.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+}
+
+.text-2{
+    height: 200px;
+    width: 200px;
+    font-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: gillsans;
+    color: #EE4367;
+}
+.text-3{    
+    height: 200px;
+    width: 200px;
+    font-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: gillsans;
+    color: #08AD69;
+}
+
+.text-4{
+    height: 200px;
+    width: 200px;
+    font-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: gillsans;
+    color: #540D6E;
+}
+.text-5{
+    height: 200px;
+    width: 200px;
+    font-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: gillsans;
+    color:#3BCEAB;
+}
+
+.gallery-title-2{      
+    width: 800px;
+    height: 109px;
+    margin-top: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: blue;
+    
+    h1{
+      font-size: 140px;
+      color: #EE4367;
+      font-family: gillsans;
+    }
+}
+
+.gallery-title-3{
+    width: 800px;
+    height: 109px;
+    margin-top: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: blue;
+    
+    h1{
+      font-size: 140px;
+      color: #08AD69;
+      font-family: gillsans;
+    }
+}
+.gallery-title-4{
+    width: 800px;
+    height: 109px;
+    margin-top: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-size: 140px;
+        color: #540D6E;
+        font-family: gillsans;
+    }
+}
+.gallery-title-5{
+    width: 800px;
+    height: 109px;
+    margin-top: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    h1{
+        font-family: gillsans;
+        color: #3BCEAB;
+        font-size: 140px;
+    }
+}

@@ -1,0 +1,199 @@
+.heroHome{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(
+        rgba(255, 209, 64, .5),
+        rgba(255, 209, 64, .5)),
+        url(../images/home-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .header{
+        width: 325px;
+        height: 52px;
+        // background-color: black;
+        margin: 0 auto;
+        // margin-top: 63px;
+        margin-bottom: 8px;
+
+        h1{
+            font-family: pts-reg;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 40px;
+        }
+    }
+
+    .lessText{
+        width: 374px;
+        height: 25px;
+        // background-color: burlywood;
+        margin: 0 auto;
+        margin-bottom: 48px;
+        
+
+        h4{
+            font-family: gillsans;
+            font-size: 20px;
+            text-align: center;
+            color: #EE4367;
+        }
+    }
+
+    .headerText{
+        width: 714px;
+        height: 50px;
+        // background-color: blue;
+        margin: 0 auto;
+        margin-bottom: 47px;
+
+        p{
+            font-family: gillsans;
+            font-size: 20px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+    }
+
+    .readMore{
+        width: 121px;
+        height: 40px;
+        margin: 0 auto;
+        background-color: #EE4367;
+        color: #FFFFFF;
+        padding: 10.5px 11.5px;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+.ceoWrapper{
+    width: 100%;
+    height: 300px;
+
+    .ceoQuote{
+        width: 789px;
+        min-height: 90px;
+        // background-color: aqua;
+        margin: 0 auto;
+        margin-top: 63px;
+        margin-bottom: 76px;
+
+        p{
+            font-size: 15px;
+            font-family: gillsans;
+            color: #FFD140;
+        }
+
+        h4{
+            font-family: pts-reg;
+            font-size: 15px;
+            color: #EE4367;
+            margin-bottom: 0;
+        }
+
+        h6{
+            font-family: pts-reg;
+            color: #A8A8A8;
+            font-size: 10px;
+            
+        }
+    }
+}
+
+.eventWrapper{
+    width: 100%;
+    min-height: 320px;
+    padding: 51px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #540D6E;
+
+    .upcoming-events{
+        color: #FFFFFF;
+        font-family: gillsans;
+        // background-color: gold;
+        width: 336px;
+        height: 33px;
+        text-transform: uppercase;
+        font-size: 25px;
+        border-bottom: 2px solid #FFFFFF;
+    }
+
+    .date-time-wrapper{
+        width: 1198px;
+        height: 124px;
+        margin-top: 34px;
+        display: flex;
+        // background-color: blue;
+
+        .date-time-text{
+            display: flex;
+            margin-right: 20px;
+            height: 124px;
+            min-width: 222px;
+            // background-color: chartreuse;
+
+            .date{
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+                height: 60px;
+                width: 60px;
+                padding: 7px 9px;
+                background-color: #EE4367;
+                position: relative;
+
+                .day{
+                    text-align: center;
+                    font-family: gillsans;
+                    color: #FFFFFF;
+                    font-size: 22px;
+                    position: absolute;
+                    top: 5px;
+                    left: 17px;
+                }
+
+                .month{
+                    text-align: center;
+                    font-family: gillsans;
+                    font-size: 12px;
+                    color: #FFFFFF;
+                    position: absolute;
+                    right: 20px;
+                }
+            }
+
+            .textWrapper{
+            .topText{
+                height: 43px;
+                width: 143px;
+                margin-left: 20px;
+                // background-color: green;
+
+                p{
+                    color: #FFFFFF;
+                    font-family: gillsans;
+                    font-size: 15px;
+
+                }
+            }
+
+            .bottomText{
+                height: 80px;
+                width: 142px;
+                margin-left: 20px;
+                // background-color: gold;
+
+                p{
+                    color: #EE4367;
+                    font-family: gillsans;
+                    font-size: 13px;
+                }
+            }
+        }
+        }
+    }
+
+}

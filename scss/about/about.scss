@@ -1,0 +1,39 @@
+.aboutHero{
+    width: 979px;
+    height: 378px;
+    margin: 0 auto;
+    margin-top: 85px;
+    background-image: linear-gradient(
+        rgba(255, 209, 64, .5),
+        rgba(255, 209, 64, .5)),
+        url(../images/about.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+.our-history{
+        color: #000;
+        font-family: gillsans;
+        // background-color: gold;
+        width: 336px;
+        height: 33px;
+        text-transform: uppercase;
+        font-size: 25px;
+        border-bottom: 2px solid #000000;
+        margin-left: 468px;
+        margin-top: -25px;
+        margin-bottom: 36px;
+}
+
+.aboutText{
+    width: 980px;
+    height: 96px;
+    margin-left: 468px;
+    margin-bottom: 95px;
+
+    p{
+        font-family: gillsans;
+        font-size: 16px;
+    }
+}

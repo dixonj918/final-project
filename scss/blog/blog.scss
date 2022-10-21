@@ -1,0 +1,137 @@
+.blogWrapper{
+    height: 257px;
+    width: 975px;
+    margin: 0 auto; 
+    margin-bottom: 24px;
+    // background-color: blue;
+    display: flex;
+    
+    .blog-group{
+      min-height: 257px;
+      width: 421px;
+      margin-right: 51px;
+    //   background-color: yellow;
+      display: flex;
+      
+      .date{
+        width: 60px;
+        height: 60px;
+        background-color: #EE4367;
+        margin-right: 18px;
+        
+        .day{
+          text-align: center;
+          margin-top: 12px;
+          margin-bottom: 2px;
+          font-family: gillsans;
+          font-size: 22px;
+          color: #FFFFFF;
+        }
+        
+        .month{
+          text-align: center;
+          font-family: gillsans;
+          font-size: 12px;
+          color: #FFFFFF;
+        }
+      }
+      
+      .picture-group{
+        width: 380px;
+        height: 257px;
+        // background-color: green;
+        
+        .blog-picture{
+          width: 100%;
+          height: 140px;
+          margin-bottom: 17px;
+          background-color: teal;
+          background-image: url(../images/blog.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+        .blog-title{
+          width: 100%;
+          height: 24px;
+          margin-bottom: 10px;
+          font-size: 15px;
+          font-family: gillsans;
+        //   background-color: brown;
+        }
+        
+        .blog-story{
+          width: 100%;
+          height: 66px;
+          font-size: 13px;
+          font-family: gillsans;
+          color: #EE4367;
+        //   background-color: orange;
+        }
+      }
+    }
+  }
+
+  .blog-hero{
+    width: 981px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    background-image: linear-gradient(
+        rgba(238, 67, 103, .5),
+        rgba(238, 67, 103, .5)), url(../images/blog.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .blog-date{
+            width: 155px;
+            height: 155px;
+            background-color: #EE4367;
+
+            .blog-day{
+                font-family:gillsans;
+                font-size: 55px;
+                color: #FFFFFF;
+                padding: 21px 50px 5px 50px;
+            }
+
+            .blog-month{
+                font-family:gillsans;
+                font-size: 31px;
+                color: #FFFFFF;
+                padding: 0px 50px;
+            }
+        }
+  }
+
+  .blog-one-wrapper{
+    height: 433px;
+    width: 981px;
+    margin: 0 auto;
+    // background-color: aqua;
+
+    .blog-header{
+
+        h3{
+            font-size: 20px;
+            font-family: gillsans;
+            color: #EE4367;
+
+        }
+    }
+
+    .blog-story{
+        
+        p{
+            font-size: 20px;
+            color: #000000;
+            font-family: gillsans;
+        }
+    }
+  }
